@@ -38,5 +38,3 @@ function addImages(imageCollection) {
 addImages(images);
 
 gallery.insertAdjacentHTML('beforeend', addImages(images));
-
-// console.log(addImages(images));

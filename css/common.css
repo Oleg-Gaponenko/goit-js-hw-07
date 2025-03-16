@@ -13,6 +13,20 @@ body {
   line-height: 1.5;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
 #categories {
   display: inline-flex;
   padding: 24px;
@@ -77,9 +91,17 @@ body {
 
 .gallery {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
   flex-wrap: wrap;
-  gap: 24px 48px;
-  width: 100%;
-  height: 100%;
+  gap: 48px 24px;
+  max-width: 1440px;
+  height: 848px;
+  padding: 100px 156px;
+}
+
+.gallery-item {
+  max-width: 360px;
+  max-height: 300px;
 }
