@@ -9,10 +9,12 @@ function handleSubmit(event) {
     const userEmail = event.target.elements.email.value.trim();
     const userData = {};
 
-    if(userPassword === '' || userEmail === '' || userEmail !== userEmail.includes('@')) {
-        alert `All form fields must be filled in`;
+    if(userPassword === '' || userEmail === '') {
+        alert (`All form fields must be filled in`);
     } else {
         userData.email = userEmail;
         userData.password = userPassword;
     }
+    console.log(userData);
+    event.target.reset();  
 }
