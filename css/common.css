@@ -59,7 +59,6 @@ ol {
   font-weight: 600;
   line-height: 1.33;
   letter-spacing: 0.96px;
-  /* margin-bottom: 16px; */
 }
 
 .category {
@@ -78,7 +77,6 @@ ol {
   align-items: flex-start;
   gap: 8px;
   color: #2e2f42;
-  /* font-family: Montserrat; */
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
