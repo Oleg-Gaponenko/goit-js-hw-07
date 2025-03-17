@@ -31,10 +31,8 @@ function addImages(imageCollection) {
   return imageCollection.map((image) => `
     <li class="gallery-item">
     <img src="${image.url}" alt="${image.alt}"/>
-    <li>
+    </li>
     `).join('');
 }
-
-addImages(images);
 
 gallery.insertAdjacentHTML('beforeend', addImages(images));
